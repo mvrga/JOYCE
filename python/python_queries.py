@@ -4,7 +4,7 @@ from psycopg2 import sql
 # 1. CONFIGURAÇÃO DA CONEXÃO
 # Como você está usando o Homebrew/psql local, as credenciais padrão são:
 DB_NAME = "joyce_edutech"
-DB_USER = "mvrga"  # O seu usuário do Mac é o usuário padrão do PostgreSQL Homebrew
+DB_USER = "mvrga" 
 DB_HOST = "localhost"
 
 def conectar_bd():
